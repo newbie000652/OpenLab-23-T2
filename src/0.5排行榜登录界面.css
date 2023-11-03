@@ -1,0 +1,76 @@
+body {
+    background: url("https://pic1.zhimg.com/v2-8484985d4b0ab8c7a3758a81258b249c_b.webp") no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    transition: background 0.5s ease;
+}
+
+.login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 340px;
+    height: 420px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+}
+
+.login h1 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #a0aec0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.login input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: #a0aec0;
+    border: none;
+    outline: none;
+    background: rgba(0, 0, 0, .5);
+    text-shadow: 0 0 5px #000;
+    border-radius: 5px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .5);
+}
+
+.login input[type="button"] {
+    background: #718096;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.login input[type="button"]:hover {
+    background: #a0aec0;
+}
+
+button {
+    background-color: #718096;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: white;
+    color: #718096;
+    border: 2px solid #718096;
+}

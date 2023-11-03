@@ -1,0 +1,91 @@
+h1 {
+    text-align: center;
+    color: #121010;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+}
+
+th,
+td {
+    border: 1px transparent solid;
+    padding: 15px;
+    text-align: center;
+}
+
+th {
+    background-color: #cb1b30;
+    color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+    transform: scale(1.02);
+    transition: transform .3s;
+}
+
+.score-passed-early {
+    color: rgb(9, 133, 9) !important;
+    font-size: large;
+    font-weight: bold;
+}
+
+.score-passed {
+    color: rgb(27, 180, 27);
+}
+
+.score-failed {
+    color: red;
+}
+
+body {
+    background:
+        linear-gradient(rgba(255, 255, 255, 0.629),
+            rgba(255, 255, 255, 0.677)),
+        url('https://lain.bgm.tv/pic/crt/l/b0/55/104650_crt_r9mPk.jpg');
+
+    background-repeat: repeat;
+    background-size: contain;
+    background-attachment: scroll;
+}
+
+.btn {
+    color: #0099CC;
+    background: transparent;
+    border: 2px solid #0099CC;
+    border-radius: 6px;
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background-color: rgb(255, 255, 255);
+    color: #4e07f4;
+}
+
+#leaderboard {
+    width: 80%;
+    height: 50%;
+    margin: auto; 
+}
+
+.chart-container {
+   width:60%;
+   height :40%;
+   margin:auto; 
+}
